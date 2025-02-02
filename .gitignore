@@ -1,0 +1,27 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment directory (adjust the name if needed)
+venv/
+env/
+.venv/
+
+# Flask-related files (debug or temporary files)
+*.log
+*.pid
+instance/
+
+# SQLite database files
+data/events.db
+
+# Environment variable files
+.env
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
